@@ -1,0 +1,17 @@
+header, main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+button {
+    width: 80px;
+    border: 1.5px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #c3c3c3;
+    transition: 0.4s;
+}
